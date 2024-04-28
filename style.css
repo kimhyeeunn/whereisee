@@ -75,4 +75,54 @@ img {
 	width: 200px;
 }
 
+@media screen and (max-width: 600px) {
+	header {
+		display: block;
+		text-align: center;
+	}
+
+	article {
+		margin-right: 0px;
+		margin-top: 10px;
+		text-align: center;
+		display: block;
+	}
+
+	img {
+		width: 150px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.me {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 200px;
+		left: 200px;
+		background-color: skyblue;
+		width: 150px;
+		height: 150px;
+		color: black;
+	}
+
+	.design {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 400px;
+		left: 200px;
+		width: 150px;
+		height: 150px;
+		border-radius: 200px;
+		color: black;
+		background-color: mediumblue;
+	}
+}
+
+
+
 
