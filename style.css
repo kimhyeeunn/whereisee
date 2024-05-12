@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-break: keep-all;
+}
+
+header {
+	background-color: ivory;
+	border-radius: 20px;
+	position: fixed;
+}
+
+article {
+	padding-top: 20px;
+	margin-right: 0px;
+	margin-top: 10px;
+	background-color: sandybrown;
+}
+
+article>section>p {
+	background-color: lightgoldenrodyellow;
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	line-height: 1.7;
+}
+
+img {
+	 width: 200px;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	}
+
