@@ -1,15 +1,26 @@
 * {
-	padding: 10;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-break: keep-all;
 }
 
 header {
-	background-color: lightblue;
+	background-color: ivory;
 	border-radius: 20px;
-	padding: 10px;
+	position: fixed;
 }
 
-nav {
-	background-color: darkblue;
+article {
+	padding-top: 20px;
+	margin-right: 0px;
+	margin-top: 10px;
+	background-color: sandybrown;
+}
+
+article>section>p {
+	background-color: lightgoldenrodyellow;
+	padding: 10px;
 }
 
 h1{
@@ -18,113 +29,16 @@ h1{
 
 h2 {
 	text-align: center;
-	text-decoration: underline;
-	text-underline-offset: 10px;
 }
 
-article {
-	background-color: skyblue;
-	border-radius: 20px;
-	padding: 10px;
-	display: inline-flex;
-	flex-direction: row;
-	align-items: center;
-	margin-right: 0px;
-	margin-top: 10px;
-}
-
-article>section>p {
-	padding: 10px;
-	border-radius: 10px;
-}
-
-.me {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 200px;
-	left: 200px;
-	background-color: skyblue;
-	width: 300px;
-	height: 300px;
-	color: black;
-}
-
-.design {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 200px;
-	left: 800px;
-	background-color: mediumblue;
-	width: 300px;
-	height: 300px;
-	border-radius: 200px;
-	color: black;
- }
-
- p {
+p {
 	line-height: 1.7;
 }
 
-* {
-	word-break: keep-all;
-}
-
 img {
-	width: 200px;
-}
-
-@media screen and (max-width: 600px) {
-	header {
-		display: block;
-		text-align: center;
+	 width: 200px;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
 	}
-
-	article {
-		margin-right: 0px;
-		margin-top: 10px;
-		text-align: center;
-		display: block;
-	}
-
-	img {
-		width: 150px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.me {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: absolute;
-		top: 200px;
-		left: 200px;
-		background-color: skyblue;
-		width: 150px;
-		height: 150px;
-		color: black;
-	}
-
-	.design {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: absolute;
-		top: 400px;
-		left: 200px;
-		width: 150px;
-		height: 150px;
-		border-radius: 200px;
-		color: black;
-		background-color: mediumblue;
-	}
-}
-
-
-
 
